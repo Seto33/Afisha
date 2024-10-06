@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.min.css">
+  <title>Афиша</title>
+</head>
+<body class="page__body">
+  @include('./common.blocks/header.html')
+  <main class="main">
+    <h1 class="visually-hidden">Афиша</h1>
+    @include('./common.blocks/hero.html')
+    @include('./common.blocks/poster.html')
+    @include('./common.blocks/news.html')
+    @include('./common.blocks/anons.html')
+  </main>
+  @include('./common.blocks/footer.html')
+  <script src="js/index.min.js"></script>
+</body>
+</html>

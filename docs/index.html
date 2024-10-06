@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.min.css">
+  <title>Афиша</title>
+</head>
+<body class="page__body">
+  <header class="header">
+  <div class="header__container container">
+    <a class="header__logo logo" href="#"><picture><source srcset="img/logo/logo.webp" type="image/webp"><img class="logo__img img" src="img/logo/logo.png" alt="logo.png"></picture></a>
+        <nav class="nav" data-nav title="navigation" aria-label="navigation list links">
+            <ul class="nav__list">
+                <li class="nav__item" data-nav-item><a href="#" class="nav__link">Афиша</a></li>
+                <li class="nav__item" data-nav-item><a href="#" class="nav__link">Заказ билетов</a></li>
+                <li class="nav__item" data-nav-item><a href="#" class="nav__link">Контакты</a></li>
+                <li class="nav__item" data-nav-item><a href="#" class="nav__link">История дворца</a></li>
+                <li class="nav__item" data-nav-item><a href="#" class="nav__link">Галерея</a></li>
+                <li class="nav__item" data-nav-item><a href="#" class="nav__link">Планы залов</a></li>
+            </ul>
+        </nav>
+    <button class="burger" aria-label="open menu" aria-expanded="false" data-burger>
+            <span class="burger__line burger__line_top"></span>
+            <span class="burger__line burger__line_middle"></span>
+            <span class="burger__line burger__line_bottom"></span>
+        </button>
+  </div>
+</header>
+  <main class="main">
+    <h1 class="visually-hidden">Афиша</h1>
+    <div class="hero">
+    <div class="hero__container container">
+        <div class="hero__wrapper">
+            <picture><source srcset="img/hero/hero-main.webp" type="image/webp"><img class="hero__wrapper-img img" loading="lazy" src="img/hero/hero-main.png" alt="hero-main.png"></picture>
+            <ul class="hero__list list-reset">
+                <li class="hero__item">
+                    <picture><source srcset="img/hero/hero1.webp" type="image/webp"><img class="hero__wrapper-img img" loading="lazy" src="img/hero/hero1.png" alt="hero1.png"></picture>
+                    <a class="hero__item-text text" href="#">Опера VS Оперетта</a>
+                </li>
+                <li class="hero__item">
+                    <picture><source srcset="img/hero/hero2.webp" type="image/webp"><img class="hero__wrapper-img img" loading="lazy" src="img/hero/hero2.png" alt="hero1.png"></picture>
+                    <a class="hero__item-text text" href="#">Антонио Вивальди. Времена года</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+    <section class="poster">
+    <div class="poster__container container">
+        <div class="poster__content">
+            <h2 class="poster__title title">Афиша</h2>
+            <div class="poster__catalog">
+                <svg class="poster__catalog-icon">
+                    <a href="#">
+                        <use xlink:href="img/svg/sprite.svg#catalog"></use>
+                    </a>
+                </svg>
+                <p class="poster__catalog-text text">Все мероприятия</p>
+            </div>
+        </div>
+        <ul class="poster__list list-reset">
+            <li class="poster__list-item">
+                <div class="poster__list-date">
+                    <span class="poster__list-day">3</span>
+                    <span class="poster__list-month">июня</span>
+                </div>
+                <div class="poster__list-wrapper">
+                    <picture><source srcset="img/poster/poster1.webp" type="image/webp"><img class="poster__list-img img" src="img/poster/poster1.png" alt="poster1.png"></picture>
+                    <div class="poster__list-content">
+                        <div class="poster__list-details">
+                            <h2 class="poster__list-title title">Антонио Вивальди. Времена года</h2>
+                            <p class="poster__list-text text">Посвящение Фрэнку Синатре.</p>
+                            <div class="poster__list-info">
+                                <picture><source srcset="img/poster/music.webp" type="image/webp"><img class="poster__list-music-img img" src="img/poster/music.png" alt="music.png"></picture>
+                                <span class="poster__list-music">Джаз</span>
+                                <picture><source srcset="img/poster/time.webp" type="image/webp"><img class="poster__list-time-img img" src="img/poster/time.png" alt="time.png"></picture>
+                                <span class="poster__list-time">19:00</span>
+                                <picture><source srcset="img/poster/age.webp" type="image/webp"><img class="poster__list-age-img img" src="img/poster/age.png" alt="age.png"></picture>
+                                <span class="poster__list-age">6+</span>
+                            </div>
+                        </div>
+                        <button class="poster__list-button button-reset">Заказать билет</button>
+                    </div>
+
+                </div>
+            </li>
+
+            <li class="poster__list-item">
+                <div class="poster__list-date">
+                    <span class="poster__list-day">30</span>
+                    <span class="poster__list-month">июня</span>
+                </div>
+                <div class="poster__list-wrapper">
+                    <picture><source srcset="img/poster/poster2.webp" type="image/webp"><img class="poster__list-img img" src="img/poster/poster2.png" alt="poster2.png"></picture>
+                    <div class="poster__list-content">
+                        <div class="poster__list-details">
+                            <h2 class="poster__list-title title">Опера VS Оперетта</h2>
+                            <p class="poster__list-text text">Санкт-Петербургский камерный оркестр Olympic Orchestra</p>
+                            <div class="poster__list-info">
+                                <picture><source srcset="img/poster/music.webp" type="image/webp"><img class="poster__list-music-img img" src="img/poster/music.png" alt="music.png"></picture>
+                                <span class="poster__list-genre">Классика</span>
+                            </div>
+                        </div>
+                        <button class="poster__list-button button-reset">Заказать билет</button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+    <section class="news">
+  <div class="news__container container">
+    <div class="news__content">
+      <h2 class="news__title title">Новости</h2>
+      <div class="news__wrapper">
+        <ul class="news__list list-reset">
+          <li class="news__item">
+            <img
+              class="news__item-img img"
+              loading="lazy"
+              src="img/news/news1.png"
+              alt="news1.png"
+            >
+            <h3 class="news__item-title title">
+              Переносы / Отмена мероприятий
+            </h3>
+            <p class="news__item-text text">
+              11.04.2023 г. в 19.00 час. — концерт «Опера vs. Оперетта» —
+              ПЕРЕНОС на 05.06.2023 г. в 19.00 час.
+            </p>
+          </li>
+          <li class="news__item">
+            <img
+              class="news__item-img img"
+              loading="lazy"
+              src="img/news/news2.png"
+              alt="news2.png"
+            >
+            <h3 class="news__item-title title">
+              Переносы / Отмена мероприятий
+            </h3>
+            <p class="news__item-text text">
+              11.04.2023 г. в 19.00 час. — концерт «Опера vs. Оперетта» —
+              ПЕРЕНОС на 05.06.2023 г. в 19.00 час.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="calendar">
+      <div class="calendar__img">
+        <picture><source srcset="img/news/calendar__image.webp" type="image/webp"><img class="calendar__img-image img" loading="lazy" src="img/news/calendar__image.png" alt="calendar__image.png"></picture>
+        <h3 class="calendar__img-title title">Обзорные экскурсии</h3>
+      </div>
+      <div class="calendar__list">
+        <div class="calendar__month-slider" data-slider="calendar">
+          <ul class="calendar__month-list list-reset">
+            <li class="calendar__month-item">Январь</li>
+            <li class="calendar__month-item">Февраль</li>
+            <li class="calendar__month-item">Март</li>
+            <li class="calendar__month-item">Апрель</li>
+            <li class="calendar__month-item">Май</li>
+            <li class="calendar__month-item">Июнь</li>
+            <li class="calendar__month-item">Июнь</li>
+            <li class="calendar__month-item">Август</li>
+            <li class="calendar__month-item">Сентябрь</li>
+            <li class="calendar__month-item">Октябрь</li>
+            <li class="calendar__month-item">Ноябрь</li>
+            <li class="calendar__month-item">Декабрь</li>
+          </ul>
+          <div class="calendar__navigation">
+            <button class="calendar__button button-reset calendar__button--prev">
+              &lt;
+            </button>
+            <button class="calendar__button button-reset calendar__button--next">
+              &gt;
+            </button>
+          </div>
+        </div>
+        <div class="calendar__day-wrapper">
+        <ul class="calendar__flex list-reset">
+          <li class="calendar__day calendar__day--gray">1</li>
+          <li class="calendar__day calendar__day--gray">1</li>
+          <li class="calendar__day calendar__day--gray">1</li>
+          <li class="calendar__day calendar__day--gray">1</li>
+          <li class="calendar__day calendar__day--gray">1</li>
+        </ul>
+
+        <ul class="calendar__flex list-reset">
+          <li class="calendar__day calendar__day--green">2</li>
+          <li class="calendar__day calendar__day--green">2</li>
+          <li class="calendar__day calendar__day--green">2</li>
+          <li class="calendar__day calendar__day--green">2</li>
+          <li class="calendar__day calendar__day--green">2</li>
+        </ul>
+
+        <ul class="calendar__flex list-reset">
+          <li class="calendar__day calendar__day--gray">3</li>
+          <li class="calendar__day calendar__day--gray">3</li>
+          <li class="calendar__day calendar__day--gray">3</li>
+          <li class="calendar__day calendar__day--gray">3</li>
+          <li class="calendar__day calendar__day--gray">3</li>
+        </ul>
+
+        <ul class="calendar__flex list-reset">
+          <li class="calendar__day calendar__day--gray">4</li>
+          <li class="calendar__day calendar__day--gray">4</li>
+          <li class="calendar__day calendar__day--gray">4</li>
+          <li class="calendar__day calendar__day--gray">4</li>
+          <li class="calendar__day calendar__day--gray">4</li>
+        </ul>
+
+        <ul class="calendar__flex list-reset">
+          <li class="calendar__day calendar__day--green">5</li>
+          <li class="calendar__day calendar__day--green">5</li>
+          <li class="calendar__day calendar__day--green">5</li>
+          <li class="calendar__day calendar__day--green">5</li>
+          <li class="calendar__day calendar__day--green">5</li>
+        </ul>
+
+        <ul class="calendar__flex list-reset">
+          <li class="calendar__day calendar__day--gray">6</li>
+          <li class="calendar__day calendar__day--gray">6</li>
+          <li class="calendar__day calendar__day--gray">6</li>
+          <li class="calendar__day calendar__day--gray">6</li>
+          <li class="calendar__day calendar__day--gray">6</li>
+        </ul>
+
+        <ul class="calendar__flex list-reset">
+          <li class="calendar__day calendar__day--green">7</li>
+          <li class="calendar__day calendar__day--green">7</li>
+          <li class="calendar__day calendar__day--green">7</li>
+          <li class="calendar__day calendar__day--green">7</li>
+          <li class="calendar__day calendar__day--green">7</li>
+        </ul>
+      </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <section class="anons">
+    <div class="anons__container container">
+        <div class="anons__content">
+            <h2 class="anons__title title">Афиша</h2>
+            <div class="anons__catalog">
+                <svg class="anons__catalog-icon">
+                    <a href="#">
+                        <use xlink:href="img/svg/sprite.svg#catalog"></use>
+                    </a>
+                </svg>
+                <p class="anons__catalog-text text">Все мероприятия</p>
+            </div>
+        </div>
+        <ul class="anons__list list-reset">
+            <li class="anons__item">
+                <button class="anons__item-button button-reset">3<br>
+                    июня</button>
+                    <p class="anons__item-text text">«ВЕК имени СИНАТРЫ»</p>
+            </li>
+            <li class="anons__item">
+                <button class="anons__item-button button-reset">3<br>
+                    июня</button>
+                    <p class="anons__item-text text">«ВЕК имени СИНАТРЫ»</p>
+            </li>
+            <li class="anons__item">
+                <button class="anons__item-button button-reset">3<br>
+                    июня</button>
+                    <p class="anons__item-text text">«ВЕК имени СИНАТРЫ»</p>
+            </li>
+            <li class="anons__item">
+                <button class="anons__item-button button-reset">3<br>
+                    июня</button>
+                    <p class="anons__item-text text">«ВЕК имени СИНАТРЫ»</p>
+            </li>
+        </ul>
+    </div>
+</section>
+  </main>
+  <footer class="footer">
+  <div class="footer__container container">
+    <div class="footer__wrapper">
+    <a class="footer__logo logo" href="#"><picture><source srcset="img/logo/logo.webp" type="image/webp"><img class="logo__img img" src="img/logo/logo.png" alt="logo.png"></picture></a>
+    <div class="footer__content">
+      <ul class="footer__list list-reset">
+        <li class="footer__item">
+          <h4 class="footer__item-title title">Мероприятия</h4>
+          <div class="footer__item-events">
+            <p class="footer__item-text text">Экскурсии</p>
+            <p class="footer__item-text text">Концерты</p>
+            <p class="footer__item-text text">Афиша</p>
+          </div>
+        </li>
+        <li class="footer__item">
+          <h4 class="footer__item-title title">Контакты</h4>
+          <div class="footer__item-contacts">
+            <p class="footer__item-text text">г. Санкт-Петербург, Невский пр., д. 1</p>
+            <a class="footer__item-text text" href="mailto:text@mail.ru">text@mail.ru</a>
+            <a class="footer__item-text text" href="tel:+8121234567">(812) 123-45-67</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <p class="footer__text text">Сайт ко</p>
+  </div>
+</footer>
+  <script src="js/index.min.js"></script>
+</body>
+</html>

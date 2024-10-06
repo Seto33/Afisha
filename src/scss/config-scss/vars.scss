@@ -1,0 +1,14 @@
+:root {
+	// base
+	--font-family: "Fira Sans", "sans-serif";
+	--second-font-family: "Garamond", "sans-serif";
+	--content-width: 1296px;
+	--container-offset: 15px;
+	--container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+	// colors
+	--light-color: #fff;
+	--text-color: #191919;
+	--background-color: rgba(25, 25, 25, 0.05);
+	--button-background-color: #05b093;
+}
